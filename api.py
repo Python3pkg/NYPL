@@ -138,7 +138,7 @@ def get_copies(url):
 		except:
 			pass
 
-		print location,collection,callNo,status
+		print(location,collection,callNo,status)
 		copy=Copy(location,collection,callNo, status)
 		copies.append(copy)
 
